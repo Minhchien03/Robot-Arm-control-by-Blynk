@@ -20,8 +20,8 @@ Servo servo_kep;  // Servo điều khiển Gripper_kep
 #define servokep  27
 
 // Thông tin WiFi và Blynk
-char ssid[] = "viettel 345";             // Tên mạng WiFi
-char pass[] = "12345679";         // Mật khẩu WiFi
+char ssid[] = "Your Wifi ";             // Tên mạng WiFi
+char pass[] = "Your password ";         // Mật khẩu WiFi
 double currentAngles[4] = {DEFAULT_ANGLE, DEFAULT_ANGLE, DEFAULT_ANGLE, DEFAULT_ANGLE};
 
 void setup() {
